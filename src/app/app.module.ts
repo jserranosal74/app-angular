@@ -7,6 +7,7 @@ import { ClientesComponent } from './componentes/clientes/clientes.component';
 import { PaisesComponent } from './componentes/paises/paises.component';
 import { MarcaComponent } from './components/marca/marca.component';
 import { MarcasComponent } from './components/marcas/marcas.component';
+import { BancosComponent } from './components/bancos/bancos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MarcasComponent } from './components/marcas/marcas.component';
     ClientesComponent,
     PaisesComponent,
     MarcaComponent,
-    MarcasComponent
+    MarcasComponent,
+    BancosComponent
   ],
   imports: [
     BrowserModule,
