@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClientesComponent } from './componentes/clientes/clientes.component';
-import { PaisesComponent } from './componentes/paises/paises.component';
-import { MarcaComponent } from './components/marca/marca.component';
+import { ClientesComponent } from './components/clientes/clientes.component';
 import { MarcasComponent } from './components/marcas/marcas.component';
 import { BancosComponent } from './components/bancos/bancos.component';
 import { ColoresComponent } from './components/colores/colores.component';
@@ -14,8 +12,6 @@ import { ColoresComponent } from './components/colores/colores.component';
   declarations: [
     AppComponent,
     ClientesComponent,
-    PaisesComponent,
-    MarcaComponent,
     MarcasComponent,
     BancosComponent,
     ColoresComponent
